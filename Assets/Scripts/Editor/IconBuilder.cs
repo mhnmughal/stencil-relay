@@ -108,7 +108,7 @@ namespace StencilRelay.Editor
             var tex = AssetDatabase.LoadAssetAtPath<Texture2D>(Path1024);
             if (tex == null) return;
 
-            PlayerSettings.SetIconsForTargetGroup(BuildTargetGroup.Unknown, new[] { tex });
+            PlayerSettings.SetIcons(NamedBuildTarget.Unknown, new[] { tex }, IconKind.Application);
             SetPlatformIcons(NamedBuildTarget.iOS, tex);
             SetPlatformIcons(NamedBuildTarget.Android, tex);
             AssetDatabase.SaveAssets();

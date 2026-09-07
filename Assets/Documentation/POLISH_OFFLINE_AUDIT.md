@@ -110,3 +110,27 @@ Requested local polish, package removal and offline audit: **COMPLETE**.
 Human touch-play QA: **SKIPPED BY USER REQUEST**.
 Full mobile release status: **BLOCKED_EXTERNAL** for iOS signing/install and device
 profiling. No store readiness or physical-device/offline-session PASS is claimed.
+
+## Addendum 2026-09-07 (later)
+
+- Owner **re-added** `com.anklebreaker.unity-mcp` to the manifest for continued
+  AI-assisted work. It is a development-only Editor package (both asmdefs `["Editor"]`,
+  no runtime asmdef references it). The Windows and iOS builds below were produced with
+  it in the manifest and are still 0 errors / 0 warnings, which re-confirms it is
+  build-inert. Remove it again before the final store build if a zero-dev-dependency
+  manifest is wanted.
+- Fixed the one remaining compiler warning: `IconBuilder.cs` used the obsolete
+  `PlayerSettings.SetIconsForTargetGroup`; switched to
+  `PlayerSettings.SetIcons(NamedBuildTarget.Unknown, ..., IconKind.Application)`.
+  Compilation is now **0 errors, 0 warnings**. Remaining log noise is Unity URP-core
+  APV shader precision hints inside `Library/PackageCache` (not our code, d3d11 editor
+  only, not in the shipped Metal shaders).
+- Re-verified live via MCP against the running editor: compile 0/0; console clean
+  (one expected `[SaveSystem] Corrupt save` warning comes from the PlayMode test that
+  deliberately feeds a bad save to check recovery); `Validate Levels` = **13 / 13 VALID**;
+  **EditMode 56/56**, **PlayMode 11/11**; `ReleaseVerification.BuildWindows` =
+  Succeeded 0/0, 90,644,826 B; `ReleaseVerification.BuildIos` = Succeeded 0/0,
+  917,367,630 B (`Builds/Offline/iOS/Unity-iPhone.xcodeproj`). Evidence refreshed in
+  `AuditEvidence/`.
+- Also folded in: the Projection-Table HUD fix (tutorial hint bar no longer overlaps
+  the MOVES / PAR counter) via `SceneBuilder.cs` + a scene rebuild.

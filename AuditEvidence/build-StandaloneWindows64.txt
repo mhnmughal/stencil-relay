@@ -1,6 +1,6 @@
 Succeeded
 Errors: 0
 Warnings: 0
-Bytes: 90648622
-Duration: 00:00:20.1317509
-Output: I:/UnityProject/Stencil Relay/AuditBuildProject/Builds/Offline/Win/StencilRelay.exe
+Bytes: 90644826
+Duration: 00:00:35.8542885
+Output: I:/UnityProject/Stencil Relay/Builds/Offline/Win/StencilRelay.exe

@@ -34,6 +34,19 @@ are `Builds/Offline/Win` and `Builds/Offline/iOS`. Current detailed report:
 Local request COMPLETE. Overall mobile release remains BLOCKED_EXTERNAL for iOS
 signing/install and physical-device profiling. Do not claim human/device QA PASS.
 
+MCP-0016 (2026-09-07, later): owner re-added `com.anklebreaker.unity-mcp` to the
+manifest. Fixed the last compiler warning (`IconBuilder.cs` obsolete
+`SetIconsForTargetGroup` -> `SetIcons(NamedBuildTarget.Unknown, ..., IconKind.Application)`);
+compile is now 0 errors / 0 warnings. Re-verified live via MCP: console clean (one
+expected corrupt-save test warning), `Validate Levels` 13/13, EditMode 56/56, PlayMode
+11/11, `ReleaseVerification.BuildWindows` Succeeded 0/0 (90,644,826 B),
+`ReleaseVerification.BuildIos` Succeeded 0/0 (917,367,630 B, Unity-iPhone.xcodeproj).
+The HUD hint-bar / MOVES overlap fix (SceneBuilder.cs + scene rebuild) is in.
+Added `README.md` and `Assets/Documentation/APP_STORE_LISTING.md`. Repo pushed to the
+private `github.com/mhnmughal/stencil-relay` (author = owner only, no Claude trailer).
+MCP is Editor-only and build-inert (both builds 0/0 with it present); remove it before
+the final store build only if a zero-dev-dependency manifest is required.
+
 MCP-0015 (2026-09-07, verification-only session): re-checked the MCP-0014 work against
 the on-disk evidence. CONFIRMED: 56/56 EditMode + 11/11 PlayMode (AuditEvidence/*.xml,
 0 skipped/0 failed), 13/13 VALID, Win build 90,648,622 B + iOS export 917,209,988 B
@@ -345,7 +358,13 @@ Note: `SampleScene` shows `sceneDirty:true` after refresh (Unity marks it on dom
 reload); it has no game content and will be replaced by the 3 real scenes. Do not save it.
 
 ## GIT STATE
-Not a repository. No commits. (Git init not authorized.)
+2026-09-07: owner authorized git. Repo initialized (`main`), pushed to the PRIVATE
+GitHub repo `github.com/mhnmughal/stencil-relay`. Commits are authored as
+"Muhammad Mehran Ul Zaman <135957863+mhnmughal@users.noreply.github.com>" only —
+**no Claude co-author trailer, no Claude-Session line** (owner's explicit instruction).
+`.gitignore` + `.gitattributes` added; Library/Builds/AuditBuildProject/Temp/Logs/
+UserSettings and IDE files excluded. Initial commit 2478235 = 587 files, includes the
+SceneBuilder MovesText/hint-bar fix (scenes rebuilt 07:49).
 
 MCP-0013
 Date: 2026-09-06

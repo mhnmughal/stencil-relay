@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<test-run id="2" testcasecount="11" result="Passed" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-07 02:22:47Z" end-time="2026-09-07 02:22:59Z" duration="11.5410425">
-  <test-suite type="TestSuite" id="1020" name="Stencil Relay" fullname="Stencil Relay" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-09-07 02:22:47Z" end-time="2026-09-07 02:22:59Z" duration="11.541043" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+<test-run id="2" testcasecount="11" result="Passed" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-07 03:28:59Z" end-time="2026-09-07 03:29:10Z" duration="11.3087359">
+  <test-suite type="TestSuite" id="1020" name="Stencil Relay" fullname="Stencil Relay" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-09-07 03:28:59Z" end-time="2026-09-07 03:29:10Z" duration="11.308736" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
     <properties>
       <property name="platform" value="PlayMode" />
     </properties>
-    <test-suite type="Assembly" id="1014" name="StencilRelay.Tests.PlayMode.dll" fullname="I:/UnityProject/Stencil Relay/Library/ScriptAssemblies/StencilRelay.Tests.PlayMode.dll" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-09-07 02:22:47Z" end-time="2026-09-07 02:22:59Z" duration="11.534392" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <test-suite type="Assembly" id="1014" name="StencilRelay.Tests.PlayMode.dll" fullname="I:/UnityProject/Stencil Relay/Library/ScriptAssemblies/StencilRelay.Tests.PlayMode.dll" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-09-07 03:28:59Z" end-time="2026-09-07 03:29:10Z" duration="11.302638" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
       <properties>
-        <property name="_PID" value="7696" />
+        <property name="_PID" value="18876" />
         <property name="_APPDOMAIN" value="Unity Child Domain" />
         <property name="platform" value="PlayMode" />
         <property name="EditorOnly" value="False" />
       </properties>
-      <test-suite type="TestSuite" id="1015" name="StencilRelay" fullname="StencilRelay" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-09-07 02:22:47Z" end-time="2026-09-07 02:22:59Z" duration="11.533275" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <test-suite type="TestSuite" id="1015" name="StencilRelay" fullname="StencilRelay" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-09-07 03:28:59Z" end-time="2026-09-07 03:29:10Z" duration="11.302308" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
         <properties />
-        <test-suite type="TestSuite" id="1016" name="Tests" fullname="StencilRelay.Tests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-09-07 02:22:47Z" end-time="2026-09-07 02:22:59Z" duration="11.532750" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <test-suite type="TestSuite" id="1016" name="Tests" fullname="StencilRelay.Tests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-09-07 03:28:59Z" end-time="2026-09-07 03:29:10Z" duration="11.302083" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
           <properties />
-          <test-suite type="TestFixture" id="1001" name="AllLevelsPlaythroughTests" fullname="StencilRelay.Tests.AllLevelsPlaythroughTests" classname="StencilRelay.Tests.AllLevelsPlaythroughTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-07 02:22:47Z" end-time="2026-09-07 02:22:54Z" duration="7.245141" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <test-suite type="TestFixture" id="1001" name="AllLevelsPlaythroughTests" fullname="StencilRelay.Tests.AllLevelsPlaythroughTests" classname="StencilRelay.Tests.AllLevelsPlaythroughTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-09-07 03:28:59Z" end-time="2026-09-07 03:29:06Z" duration="7.057262" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
             <properties />
-            <test-case id="1005" name="AuthoredUI_ResultRouting_PauseAndAudio_AgreeWithState" fullname="StencilRelay.Tests.AllLevelsPlaythroughTests.AuthoredUI_ResultRouting_PauseAndAudio_AgreeWithState" methodname="AuthoredUI_ResultRouting_PauseAndAudio_AgreeWithState" classname="StencilRelay.Tests.AllLevelsPlaythroughTests" runstate="Runnable" seed="367591034" result="Passed" start-time="2026-09-07 02:22:47Z" end-time="2026-09-07 02:22:49Z" duration="1.977019" asserts="0">
+            <test-case id="1005" name="AuthoredUI_ResultRouting_PauseAndAudio_AgreeWithState" fullname="StencilRelay.Tests.AllLevelsPlaythroughTests.AuthoredUI_ResultRouting_PauseAndAudio_AgreeWithState" methodname="AuthoredUI_ResultRouting_PauseAndAudio_AgreeWithState" classname="StencilRelay.Tests.AllLevelsPlaythroughTests" runstate="Runnable" seed="337644906" result="Passed" start-time="2026-09-07 03:28:59Z" end-time="2026-09-07 03:29:01Z" duration="1.943965" asserts="0">
               <properties>
                 <property name="_JOINTYPE" value="UnityCombinatorial" />
                 <property name="retryIteration" value="0" />
@@ -27,7 +27,7 @@
 iPhoneUtils.Vibrate()
 ]]></output>
             </test-case>
-            <test-case id="1003" name="Completion_UnlocksNextLevel_ThroughHud" fullname="StencilRelay.Tests.AllLevelsPlaythroughTests.Completion_UnlocksNextLevel_ThroughHud" methodname="Completion_UnlocksNextLevel_ThroughHud" classname="StencilRelay.Tests.AllLevelsPlaythroughTests" runstate="Runnable" seed="1295525984" result="Passed" start-time="2026-09-07 02:22:49Z" end-time="2026-09-07 02:22:50Z" duration="0.638569" asserts="0">
+            <test-case id="1003" name="Completion_UnlocksNextLevel_ThroughHud" fullname="StencilRelay.Tests.AllLevelsPlaythroughTests.Completion_UnlocksNextLevel_ThroughHud" methodname="Completion_UnlocksNextLevel_ThroughHud" classname="StencilRelay.Tests.AllLevelsPlaythroughTests" runstate="Runnable" seed="160224002" result="Passed" start-time="2026-09-07 03:29:01Z" end-time="2026-09-07 03:29:02Z" duration="0.627475" asserts="0">
               <properties>
                 <property name="_JOINTYPE" value="UnityCombinatorial" />
                 <property name="retryIteration" value="0" />
@@ -37,7 +37,7 @@ iPhoneUtils.Vibrate()
 iPhoneUtils.Vibrate()
 ]]></output>
             </test-case>
-            <test-case id="1002" name="EveryLevel_LoadsSolvesResets_ThroughTheScene" fullname="StencilRelay.Tests.AllLevelsPlaythroughTests.EveryLevel_LoadsSolvesResets_ThroughTheScene" methodname="EveryLevel_LoadsSolvesResets_ThroughTheScene" classname="StencilRelay.Tests.AllLevelsPlaythroughTests" runstate="Runnable" seed="1866026685" result="Passed" start-time="2026-09-07 02:22:50Z" end-time="2026-09-07 02:22:54Z" duration="3.975584" asserts="0">
+            <test-case id="1002" name="EveryLevel_LoadsSolvesResets_ThroughTheScene" fullname="StencilRelay.Tests.AllLevelsPlaythroughTests.EveryLevel_LoadsSolvesResets_ThroughTheScene" methodname="EveryLevel_LoadsSolvesResets_ThroughTheScene" classname="StencilRelay.Tests.AllLevelsPlaythroughTests" runstate="Runnable" seed="658578889" result="Passed" start-time="2026-09-07 03:29:02Z" end-time="2026-09-07 03:29:06Z" duration="3.848894" asserts="0">
               <properties>
                 <property name="_JOINTYPE" value="UnityCombinatorial" />
                 <property name="retryIteration" value="0" />
@@ -94,7 +94,7 @@ iPhoneUtils.Vibrate()
 iPhoneUtils.Vibrate()
 ]]></output>
             </test-case>
-            <test-case id="1004" name="SelectedLowerLayer_DragPreview_AndPause_AreStable" fullname="StencilRelay.Tests.AllLevelsPlaythroughTests.SelectedLowerLayer_DragPreview_AndPause_AreStable" methodname="SelectedLowerLayer_DragPreview_AndPause_AreStable" classname="StencilRelay.Tests.AllLevelsPlaythroughTests" runstate="Runnable" seed="1961686402" result="Passed" start-time="2026-09-07 02:22:54Z" end-time="2026-09-07 02:22:54Z" duration="0.643096" asserts="0">
+            <test-case id="1004" name="SelectedLowerLayer_DragPreview_AndPause_AreStable" fullname="StencilRelay.Tests.AllLevelsPlaythroughTests.SelectedLowerLayer_DragPreview_AndPause_AreStable" methodname="SelectedLowerLayer_DragPreview_AndPause_AreStable" classname="StencilRelay.Tests.AllLevelsPlaythroughTests" runstate="Runnable" seed="722659066" result="Passed" start-time="2026-09-07 03:29:06Z" end-time="2026-09-07 03:29:06Z" duration="0.627737" asserts="0">
               <properties>
                 <property name="_JOINTYPE" value="UnityCombinatorial" />
                 <property name="retryIteration" value="0" />
@@ -105,41 +105,30 @@ iPhoneUtils.Vibrate()
 ]]></output>
             </test-case>
           </test-suite>
-          <test-suite type="TestFixture" id="1006" name="VerticalSliceSmokeTests" fullname="StencilRelay.Tests.VerticalSliceSmokeTests" classname="StencilRelay.Tests.VerticalSliceSmokeTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-09-07 02:22:54Z" end-time="2026-09-07 02:22:59Z" duration="4.285990" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <test-suite type="TestFixture" id="1006" name="VerticalSliceSmokeTests" fullname="StencilRelay.Tests.VerticalSliceSmokeTests" classname="StencilRelay.Tests.VerticalSliceSmokeTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-09-07 03:29:06Z" end-time="2026-09-07 03:29:10Z" duration="4.243873" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
             <properties />
-            <test-case id="1012" name="Audio_Mixer_And_Clips_Load_And_SettingsDriveMixer" fullname="StencilRelay.Tests.VerticalSliceSmokeTests.Audio_Mixer_And_Clips_Load_And_SettingsDriveMixer" methodname="Audio_Mixer_And_Clips_Load_And_SettingsDriveMixer" classname="StencilRelay.Tests.VerticalSliceSmokeTests" runstate="Runnable" seed="407158314" result="Passed" start-time="2026-09-07 02:22:54Z" end-time="2026-09-07 02:22:55Z" duration="0.423925" asserts="0">
+            <test-case id="1012" name="Audio_Mixer_And_Clips_Load_And_SettingsDriveMixer" fullname="StencilRelay.Tests.VerticalSliceSmokeTests.Audio_Mixer_And_Clips_Load_And_SettingsDriveMixer" methodname="Audio_Mixer_And_Clips_Load_And_SettingsDriveMixer" classname="StencilRelay.Tests.VerticalSliceSmokeTests" runstate="Runnable" seed="978930504" result="Passed" start-time="2026-09-07 03:29:06Z" end-time="2026-09-07 03:29:07Z" duration="0.422030" asserts="0">
               <properties>
                 <property name="_JOINTYPE" value="UnityCombinatorial" />
                 <property name="retryIteration" value="0" />
                 <property name="repeatIteration" value="0" />
               </properties>
             </test-case>
-            <test-case id="1013" name="Bootstrap_Boots_Into_LightStudio_With_Services" fullname="StencilRelay.Tests.VerticalSliceSmokeTests.Bootstrap_Boots_Into_LightStudio_With_Services" methodname="Bootstrap_Boots_Into_LightStudio_With_Services" classname="StencilRelay.Tests.VerticalSliceSmokeTests" runstate="Runnable" seed="1916599720" result="Passed" start-time="2026-09-07 02:22:55Z" end-time="2026-09-07 02:22:55Z" duration="0.436199" asserts="0">
+            <test-case id="1013" name="Bootstrap_Boots_Into_LightStudio_With_Services" fullname="StencilRelay.Tests.VerticalSliceSmokeTests.Bootstrap_Boots_Into_LightStudio_With_Services" methodname="Bootstrap_Boots_Into_LightStudio_With_Services" classname="StencilRelay.Tests.VerticalSliceSmokeTests" runstate="Runnable" seed="999098363" result="Passed" start-time="2026-09-07 03:29:07Z" end-time="2026-09-07 03:29:07Z" duration="0.417599" asserts="0">
               <properties>
                 <property name="_JOINTYPE" value="UnityCombinatorial" />
                 <property name="retryIteration" value="0" />
                 <property name="repeatIteration" value="0" />
               </properties>
             </test-case>
-            <test-case id="1011" name="Finale_PlaysOnce_AfterLevel12_AndPersists" fullname="StencilRelay.Tests.VerticalSliceSmokeTests.Finale_PlaysOnce_AfterLevel12_AndPersists" methodname="Finale_PlaysOnce_AfterLevel12_AndPersists" classname="StencilRelay.Tests.VerticalSliceSmokeTests" runstate="Runnable" seed="410391105" result="Passed" start-time="2026-09-07 02:22:55Z" end-time="2026-09-07 02:22:58Z" duration="2.373567" asserts="0">
+            <test-case id="1011" name="Finale_PlaysOnce_AfterLevel12_AndPersists" fullname="StencilRelay.Tests.VerticalSliceSmokeTests.Finale_PlaysOnce_AfterLevel12_AndPersists" methodname="Finale_PlaysOnce_AfterLevel12_AndPersists" classname="StencilRelay.Tests.VerticalSliceSmokeTests" runstate="Runnable" seed="1933733662" result="Passed" start-time="2026-09-07 03:29:07Z" end-time="2026-09-07 03:29:09Z" duration="2.389055" asserts="0">
               <properties>
                 <property name="_JOINTYPE" value="UnityCombinatorial" />
                 <property name="retryIteration" value="0" />
                 <property name="repeatIteration" value="0" />
               </properties>
             </test-case>
-            <test-case id="1009" name="Level0_Calibration_IsTutorial_And_Solves_Via_SlideThenRotate" fullname="StencilRelay.Tests.VerticalSliceSmokeTests.Level0_Calibration_IsTutorial_And_Solves_Via_SlideThenRotate" methodname="Level0_Calibration_IsTutorial_And_Solves_Via_SlideThenRotate" classname="StencilRelay.Tests.VerticalSliceSmokeTests" runstate="Runnable" seed="622800997" result="Passed" start-time="2026-09-07 02:22:58Z" end-time="2026-09-07 02:22:58Z" duration="0.269410" asserts="0">
-              <properties>
-                <property name="_JOINTYPE" value="UnityCombinatorial" />
-                <property name="retryIteration" value="0" />
-                <property name="repeatIteration" value="0" />
-              </properties>
-              <output><![CDATA[iPhoneUtils.Vibrate()
-iPhoneUtils.Vibrate()
-iPhoneUtils.Vibrate()
-]]></output>
-            </test-case>
-            <test-case id="1007" name="ProjectionTable_Loads_Level1_And_SolvesToPerfectRegister" fullname="StencilRelay.Tests.VerticalSliceSmokeTests.ProjectionTable_Loads_Level1_And_SolvesToPerfectRegister" methodname="ProjectionTable_Loads_Level1_And_SolvesToPerfectRegister" classname="StencilRelay.Tests.VerticalSliceSmokeTests" runstate="Runnable" seed="1816195642" result="Passed" start-time="2026-09-07 02:22:58Z" end-time="2026-09-07 02:22:58Z" duration="0.276786" asserts="0">
+            <test-case id="1009" name="Level0_Calibration_IsTutorial_And_Solves_Via_SlideThenRotate" fullname="StencilRelay.Tests.VerticalSliceSmokeTests.Level0_Calibration_IsTutorial_And_Solves_Via_SlideThenRotate" methodname="Level0_Calibration_IsTutorial_And_Solves_Via_SlideThenRotate" classname="StencilRelay.Tests.VerticalSliceSmokeTests" runstate="Runnable" seed="1932106305" result="Passed" start-time="2026-09-07 03:29:09Z" end-time="2026-09-07 03:29:10Z" duration="0.262762" asserts="0">
               <properties>
                 <property name="_JOINTYPE" value="UnityCombinatorial" />
                 <property name="retryIteration" value="0" />
@@ -147,9 +136,20 @@ iPhoneUtils.Vibrate()
               </properties>
               <output><![CDATA[iPhoneUtils.Vibrate()
 iPhoneUtils.Vibrate()
+iPhoneUtils.Vibrate()
 ]]></output>
             </test-case>
-            <test-case id="1008" name="ProjectionTable_WrongConfiguration_ReportsMisalignedReason" fullname="StencilRelay.Tests.VerticalSliceSmokeTests.ProjectionTable_WrongConfiguration_ReportsMisalignedReason" methodname="ProjectionTable_WrongConfiguration_ReportsMisalignedReason" classname="StencilRelay.Tests.VerticalSliceSmokeTests" runstate="Runnable" seed="1669005988" result="Passed" start-time="2026-09-07 02:22:58Z" end-time="2026-09-07 02:22:58Z" duration="0.254277" asserts="0">
+            <test-case id="1007" name="ProjectionTable_Loads_Level1_And_SolvesToPerfectRegister" fullname="StencilRelay.Tests.VerticalSliceSmokeTests.ProjectionTable_Loads_Level1_And_SolvesToPerfectRegister" methodname="ProjectionTable_Loads_Level1_And_SolvesToPerfectRegister" classname="StencilRelay.Tests.VerticalSliceSmokeTests" runstate="Runnable" seed="1942252154" result="Passed" start-time="2026-09-07 03:29:10Z" end-time="2026-09-07 03:29:10Z" duration="0.263395" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[iPhoneUtils.Vibrate()
+iPhoneUtils.Vibrate()
+]]></output>
+            </test-case>
+            <test-case id="1008" name="ProjectionTable_WrongConfiguration_ReportsMisalignedReason" fullname="StencilRelay.Tests.VerticalSliceSmokeTests.ProjectionTable_WrongConfiguration_ReportsMisalignedReason" methodname="ProjectionTable_WrongConfiguration_ReportsMisalignedReason" classname="StencilRelay.Tests.VerticalSliceSmokeTests" runstate="Runnable" seed="832233761" result="Passed" start-time="2026-09-07 03:29:10Z" end-time="2026-09-07 03:29:10Z" duration="0.246321" asserts="0">
               <properties>
                 <property name="_JOINTYPE" value="UnityCombinatorial" />
                 <property name="retryIteration" value="0" />
@@ -158,7 +158,7 @@ iPhoneUtils.Vibrate()
               <output><![CDATA[iPhoneUtils.Vibrate()
 ]]></output>
             </test-case>
-            <test-case id="1010" name="SaveSystem_RecordsTutorial_UnlocksLevel1" fullname="StencilRelay.Tests.VerticalSliceSmokeTests.SaveSystem_RecordsTutorial_UnlocksLevel1" methodname="SaveSystem_RecordsTutorial_UnlocksLevel1" classname="StencilRelay.Tests.VerticalSliceSmokeTests" runstate="Runnable" seed="1487345895" result="Passed" start-time="2026-09-07 02:22:58Z" end-time="2026-09-07 02:22:59Z" duration="0.235861" asserts="0">
+            <test-case id="1010" name="SaveSystem_RecordsTutorial_UnlocksLevel1" fullname="StencilRelay.Tests.VerticalSliceSmokeTests.SaveSystem_RecordsTutorial_UnlocksLevel1" methodname="SaveSystem_RecordsTutorial_UnlocksLevel1" classname="StencilRelay.Tests.VerticalSliceSmokeTests" runstate="Runnable" seed="785068595" result="Passed" start-time="2026-09-07 03:29:10Z" end-time="2026-09-07 03:29:10Z" duration="0.226888" asserts="0">
               <properties>
                 <property name="_JOINTYPE" value="UnityCombinatorial" />
                 <property name="retryIteration" value="0" />
