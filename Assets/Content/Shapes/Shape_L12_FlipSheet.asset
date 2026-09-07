@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1402751ac463fa40be07f438254eafc, type: 3}
+  m_Name: Shape_L12_FlipSheet
+  m_EditorClassIdentifier: StencilRelay.Runtime::StencilRelay.Levels.StencilShapeAsset
+  footprintW: 7
+  footprintH: 7
+  frontOpen:
+  - {x: 3, y: 2}
+  - {x: 3, y: 3}
+  - {x: 3, y: 4}
+  - {x: 4, y: 4}
+  hasDistinctBack: 1
+  backOpen:
+  - {x: 2, y: 3}
+  - {x: 3, y: 3}
+  - {x: 4, y: 3}
+  - {x: 4, y: 2}
+  frontFilters: 
+  backFilters: 

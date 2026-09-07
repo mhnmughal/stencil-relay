@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d31705d3ef56fd4da5b48084950c60c, type: 3}
+  m_Name: Level_02_DoubleLayer
+  m_EditorClassIdentifier: StencilRelay.Runtime::StencilRelay.Levels.StencilLevelDefinition
+  levelId: 2
+  displayTitle: Double Layer
+  set: 1
+  boardSize: {x: 6, y: 6}
+  projectors:
+  - id: P
+    fullBoardAperture: 1
+    apertureCells: []
+  plates:
+  - id: A
+    shape: {fileID: 11400000, guid: 9b3e98eeba4c4da488eb87e45e72fd60, type: 2}
+    initialOffset: {x: 0, y: 0}
+    initialRotation: 0
+    initialFlipped: 0
+    allowedOffsets:
+    - {x: 0, y: 0}
+    - {x: 2, y: 2}
+    - {x: 0, y: 2}
+    - {x: 2, y: 0}
+    allowedRotations: 
+    flipAllowed: 0
+    optimalOffset: {x: 2, y: 2}
+    optimalRotation: 0
+    optimalFlipped: 0
+    depthPlane: 0
+  - id: B
+    shape: {fileID: 11400000, guid: 78fb1294e3dddfb41adb343aa76c6ea3, type: 2}
+    initialOffset: {x: 0, y: 0}
+    initialRotation: 0
+    initialFlipped: 0
+    allowedOffsets:
+    - {x: 0, y: 0}
+    - {x: 2, y: 2}
+    - {x: 2, y: 0}
+    - {x: 2, y: 1}
+    allowedRotations: 
+    flipAllowed: 0
+    optimalOffset: {x: 2, y: 2}
+    optimalRotation: 0
+    optimalFlipped: 0
+    depthPlane: 0
+  sensors:
+  - label: T
+    kind: 0
+    projectorId: P
+    cells:
+    - {x: 3, y: 3}
+    requiredFilter: 0
+  movePar: 2
+  isTutorial: 0
+  tutorialSteps: []
+  parallaxPerDepth: 0

@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d31705d3ef56fd4da5b48084950c60c, type: 3}
+  m_Name: Level_12_MasterPlate
+  m_EditorClassIdentifier: StencilRelay.Runtime::StencilRelay.Levels.StencilLevelDefinition
+  levelId: 12
+  displayTitle: Master Plate
+  set: 3
+  boardSize: {x: 7, y: 7}
+  projectors:
+  - id: P1
+    fullBoardAperture: 1
+    apertureCells: []
+  - id: P2
+    fullBoardAperture: 1
+    apertureCells: []
+  plates:
+  - id: A
+    shape: {fileID: 11400000, guid: e80e62b2fbd85f44ab02d2da7be75189, type: 2}
+    initialOffset: {x: 0, y: 0}
+    initialRotation: 0
+    initialFlipped: 0
+    allowedOffsets:
+    - {x: 0, y: 0}
+    allowedRotations: 00000000010000000200000003000000
+    flipAllowed: 0
+    optimalOffset: {x: 0, y: 0}
+    optimalRotation: 1
+    optimalFlipped: 0
+    depthPlane: 0
+  - id: B
+    shape: {fileID: 11400000, guid: 2f311462b0bae7748b4df067b426f591, type: 2}
+    initialOffset: {x: 0, y: 0}
+    initialRotation: 0
+    initialFlipped: 0
+    allowedOffsets:
+    - {x: 0, y: 0}
+    allowedRotations: 
+    flipAllowed: 1
+    optimalOffset: {x: 0, y: 0}
+    optimalRotation: 0
+    optimalFlipped: 1
+    depthPlane: 0
+  - id: C
+    shape: {fileID: 11400000, guid: bc7d358c76363c34784a5912546482ff, type: 2}
+    initialOffset: {x: 2, y: 0}
+    initialRotation: 0
+    initialFlipped: 0
+    allowedOffsets:
+    - {x: 0, y: 0}
+    - {x: 2, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    allowedRotations: 
+    flipAllowed: 0
+    optimalOffset: {x: 0, y: 0}
+    optimalRotation: 0
+    optimalFlipped: 0
+    depthPlane: 0
+  sensors:
+  - label: Bar
+    kind: 0
+    projectorId: P1
+    cells:
+    - {x: 2, y: 3}
+    requiredFilter: 0
+  - label: Bar2
+    kind: 0
+    projectorId: P1
+    cells:
+    - {x: 3, y: 3}
+    requiredFilter: 0
+  - label: XP1
+    kind: 1
+    projectorId: P1
+    cells:
+    - {x: 3, y: 2}
+    requiredFilter: 0
+  - label: Post
+    kind: 0
+    projectorId: P2
+    cells:
+    - {x: 4, y: 2}
+    requiredFilter: 0
+  - label: Post2
+    kind: 0
+    projectorId: P2
+    cells:
+    - {x: 4, y: 3}
+    requiredFilter: 0
+  - label: XP2
+    kind: 1
+    projectorId: P2
+    cells:
+    - {x: 4, y: 4}
+    requiredFilter: 0
+  movePar: 5
+  isTutorial: 0
+  tutorialSteps: []
+  parallaxPerDepth: 0

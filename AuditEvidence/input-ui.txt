@@ -1,0 +1,4 @@
+Pause button hit: True
+Modal blocks board: False
+Controller paused: True
+Modal blocks board after layout: True

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="56" result="Passed" total="56" passed="56" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.1354022">
+  <test-suite type="TestSuite" id="1000" name="Stencil Relay" fullname="Stencil Relay" runstate="Runnable" testcasecount="56" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.135402" total="56" passed="56" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1061" name="StencilRelay.Tests.EditMode.dll" fullname="I:/UnityProject/Stencil Relay/Library/ScriptAssemblies/StencilRelay.Tests.EditMode.dll" runstate="Runnable" testcasecount="56" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.130293" total="56" passed="56" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="17036" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1062" name="StencilRelay" fullname="StencilRelay" runstate="Runnable" testcasecount="56" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.130090" total="56" passed="56" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1063" name="Tests" fullname="StencilRelay.Tests" runstate="Runnable" testcasecount="56" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.129971" total="56" passed="56" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="LevelManipulationTests" fullname="StencilRelay.Tests.LevelManipulationTests" classname="StencilRelay.Tests.LevelManipulationTests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.039388" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1008" name="Flip_Rejected_WhenNotAllowed" fullname="StencilRelay.Tests.LevelManipulationTests.Flip_Rejected_WhenNotAllowed" methodname="Flip_Rejected_WhenNotAllowed" classname="StencilRelay.Tests.LevelManipulationTests" runstate="Runnable" seed="381797926" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.019587" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1007" name="Flip_Toggles_WhenAllowed_AndCounts" fullname="StencilRelay.Tests.LevelManipulationTests.Flip_Toggles_WhenAllowed_AndCounts" methodname="Flip_Toggles_WhenAllowed_AndCounts" classname="StencilRelay.Tests.LevelManipulationTests" runstate="Runnable" seed="1463331758" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000400" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1010" name="Project_LocksManipulation_UntilUnlock" fullname="StencilRelay.Tests.LevelManipulationTests.Project_LocksManipulation_UntilUnlock" methodname="Project_LocksManipulation_UntilUnlock" classname="StencilRelay.Tests.LevelManipulationTests" runstate="Runnable" seed="1922844239" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.004024" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1014" name="Rating_Aligned_ForTutorial_Always" fullname="StencilRelay.Tests.LevelManipulationTests.Rating_Aligned_ForTutorial_Always" methodname="Rating_Aligned_ForTutorial_Always" classname="StencilRelay.Tests.LevelManipulationTests" runstate="Runnable" seed="13688591" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.001610" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1013" name="Rating_Aligned_WhenSolvedOverParAndNotOptimal" fullname="StencilRelay.Tests.LevelManipulationTests.Rating_Aligned_WhenSolvedOverParAndNotOptimal" methodname="Rating_Aligned_WhenSolvedOverParAndNotOptimal" classname="StencilRelay.Tests.LevelManipulationTests" runstate="Runnable" seed="2054309783" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000397" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1011" name="Rating_PerfectRegister_WhenTransformMatchesOptimal" fullname="StencilRelay.Tests.LevelManipulationTests.Rating_PerfectRegister_WhenTransformMatchesOptimal" methodname="Rating_PerfectRegister_WhenTransformMatchesOptimal" classname="StencilRelay.Tests.LevelManipulationTests" runstate="Runnable" seed="2101593918" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000210" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1012" name="Rating_Precise_WithinPar_ButNotOptimalConfig" fullname="StencilRelay.Tests.LevelManipulationTests.Rating_Precise_WithinPar_ButNotOptimalConfig" methodname="Rating_Precise_WithinPar_ButNotOptimalConfig" classname="StencilRelay.Tests.LevelManipulationTests" runstate="Runnable" seed="879870897" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000192" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1009" name="ResetPlate_RestoresInitial_AndRefundsMoves" fullname="StencilRelay.Tests.LevelManipulationTests.ResetPlate_RestoresInitial_AndRefundsMoves" methodname="ResetPlate_RestoresInitial_AndRefundsMoves" classname="StencilRelay.Tests.LevelManipulationTests" runstate="Runnable" seed="1793328524" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000968" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1006" name="RotateStep_CyclesThroughAllowedRotations" fullname="StencilRelay.Tests.LevelManipulationTests.RotateStep_CyclesThroughAllowedRotations" methodname="RotateStep_CyclesThroughAllowedRotations" classname="StencilRelay.Tests.LevelManipulationTests" runstate="Runnable" seed="2055596455" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000213" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1002" name="Slide_ToAllowedOffset_Counts_And_Lights" fullname="StencilRelay.Tests.LevelManipulationTests.Slide_ToAllowedOffset_Counts_And_Lights" methodname="Slide_ToAllowedOffset_Counts_And_Lights" classname="StencilRelay.Tests.LevelManipulationTests" runstate="Runnable" seed="1612826906" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000214" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="Slide_ToDisallowedOffset_Rejected_NoMove" fullname="StencilRelay.Tests.LevelManipulationTests.Slide_ToDisallowedOffset_Rejected_NoMove" methodname="Slide_ToDisallowedOffset_Rejected_NoMove" classname="StencilRelay.Tests.LevelManipulationTests" runstate="Runnable" seed="2088486474" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000163" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1004" name="Slide_ToSameOffset_IsNoOp" fullname="StencilRelay.Tests.LevelManipulationTests.Slide_ToSameOffset_IsNoOp" methodname="Slide_ToSameOffset_IsNoOp" classname="StencilRelay.Tests.LevelManipulationTests" runstate="Runnable" seed="789740770" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000154" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1005" name="SlideToNearest_SnapsToClosestAllowed" fullname="StencilRelay.Tests.LevelManipulationTests.SlideToNearest_SnapsToClosestAllowed" methodname="SlideToNearest_SnapsToClosestAllowed" classname="StencilRelay.Tests.LevelManipulationTests" runstate="Runnable" seed="1140869900" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.001288" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1015" name="LevelPipelineTests" fullname="StencilRelay.Tests.LevelPipelineTests" classname="StencilRelay.Tests.LevelPipelineTests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.037139" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1016" name="BuildRuntime_And_BuildAtOptimal_Differ" fullname="StencilRelay.Tests.LevelPipelineTests.BuildRuntime_And_BuildAtOptimal_Differ" methodname="BuildRuntime_And_BuildAtOptimal_Differ" classname="StencilRelay.Tests.LevelPipelineTests" runstate="Runnable" seed="1814961135" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000917" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1028" name="FullDatabase_Of13_Reports_AllValid_WhenEachLevelClean" fullname="StencilRelay.Tests.LevelPipelineTests.FullDatabase_Of13_Reports_AllValid_WhenEachLevelClean" methodname="FullDatabase_Of13_Reports_AllValid_WhenEachLevelClean" classname="StencilRelay.Tests.LevelPipelineTests" runstate="Runnable" seed="1354225372" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.011096" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1026" name="RealDatabase_EveryLevel_OptimalSolves_And_SolverConfirms" fullname="StencilRelay.Tests.LevelPipelineTests.RealDatabase_EveryLevel_OptimalSolves_And_SolverConfirms" methodname="RealDatabase_EveryLevel_OptimalSolves_And_SolverConfirms" classname="StencilRelay.Tests.LevelPipelineTests" runstate="Runnable" seed="274652989" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.018393" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1027" name="RealDatabase_InitialState_DoesNotSolve_ForNonTrivialLevels" fullname="StencilRelay.Tests.LevelPipelineTests.RealDatabase_InitialState_DoesNotSolve_ForNonTrivialLevels" methodname="RealDatabase_InitialState_DoesNotSolve_ForNonTrivialLevels" classname="StencilRelay.Tests.LevelPipelineTests" runstate="Runnable" seed="2107641390" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000339" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1025" name="RealDatabase_Validates_13_of_13" fullname="StencilRelay.Tests.LevelPipelineTests.RealDatabase_Validates_13_of_13" methodname="RealDatabase_Validates_13_of_13" classname="StencilRelay.Tests.LevelPipelineTests" runstate="Runnable" seed="1519555323" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.002055" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1017" name="Solver_FindsSolution_ForSolvableLevel" fullname="StencilRelay.Tests.LevelPipelineTests.Solver_FindsSolution_ForSolvableLevel" methodname="Solver_FindsSolution_ForSolvableLevel" classname="StencilRelay.Tests.LevelPipelineTests" runstate="Runnable" seed="724211353" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000214" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1019" name="Solver_MinMovesToOptimal_CountsSlideRotateFlip" fullname="StencilRelay.Tests.LevelPipelineTests.Solver_MinMovesToOptimal_CountsSlideRotateFlip" methodname="Solver_MinMovesToOptimal_CountsSlideRotateFlip" classname="StencilRelay.Tests.LevelPipelineTests" runstate="Runnable" seed="604074615" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000275" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1018" name="Solver_ReportsUnsolvable_WhenNoPlacementWorks" fullname="StencilRelay.Tests.LevelPipelineTests.Solver_ReportsUnsolvable_WhenNoPlacementWorks" methodname="Solver_ReportsUnsolvable_WhenNoPlacementWorks" classname="StencilRelay.Tests.LevelPipelineTests" runstate="Runnable" seed="617304663" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000250" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1020" name="Validation_CleanLevel_ProducesNoErrors_ForThatLevel" fullname="StencilRelay.Tests.LevelPipelineTests.Validation_CleanLevel_ProducesNoErrors_ForThatLevel" methodname="Validation_CleanLevel_ProducesNoErrors_ForThatLevel" classname="StencilRelay.Tests.LevelPipelineTests" runstate="Runnable" seed="263792865" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000812" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1024" name="Validation_Flags_Level11_WithoutDualProjectors" fullname="StencilRelay.Tests.LevelPipelineTests.Validation_Flags_Level11_WithoutDualProjectors" methodname="Validation_Flags_Level11_WithoutDualProjectors" classname="StencilRelay.Tests.LevelPipelineTests" runstate="Runnable" seed="337685374" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000381" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1022" name="Validation_Flags_MoveParBelowMinimum" fullname="StencilRelay.Tests.LevelPipelineTests.Validation_Flags_MoveParBelowMinimum" methodname="Validation_Flags_MoveParBelowMinimum" classname="StencilRelay.Tests.LevelPipelineTests" runstate="Runnable" seed="610999537" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000302" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1021" name="Validation_Flags_OptimalThatDoesNotSolve" fullname="StencilRelay.Tests.LevelPipelineTests.Validation_Flags_OptimalThatDoesNotSolve" methodname="Validation_Flags_OptimalThatDoesNotSolve" classname="StencilRelay.Tests.LevelPipelineTests" runstate="Runnable" seed="1469255377" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000364" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1023" name="Validation_Flags_TutorialFlagOnNonZeroLevel" fullname="StencilRelay.Tests.LevelPipelineTests.Validation_Flags_TutorialFlagOnNonZeroLevel" methodname="Validation_Flags_TutorialFlagOnNonZeroLevel" classname="StencilRelay.Tests.LevelPipelineTests" runstate="Runnable" seed="1152605687" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000292" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1029" name="SaveSystemTests" fullname="StencilRelay.Tests.SaveSystemTests" classname="StencilRelay.Tests.SaveSystemTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.041501" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1032" name="Completion_UnlocksNext_AndRecordsRatingAndMoves" fullname="StencilRelay.Tests.SaveSystemTests.Completion_UnlocksNext_AndRecordsRatingAndMoves" methodname="Completion_UnlocksNext_AndRecordsRatingAndMoves" classname="StencilRelay.Tests.SaveSystemTests" runstate="Runnable" seed="746440841" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.008067" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1036" name="CorruptFile_IsBackedUp_AndReset" fullname="StencilRelay.Tests.SaveSystemTests.CorruptFile_IsBackedUp_AndReset" methodname="CorruptFile_IsBackedUp_AndReset" classname="StencilRelay.Tests.SaveSystemTests" runstate="Runnable" seed="767296945" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.009213" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[SaveSystem] Corrupt save (JSON parse error: Missing a name for object member.); backing up and resetting.
+]]></output>
+            </test-case>
+            <test-case id="1030" name="FirstLaunch_NoFile_GivesDefaults" fullname="StencilRelay.Tests.SaveSystemTests.FirstLaunch_NoFile_GivesDefaults" methodname="FirstLaunch_NoFile_GivesDefaults" classname="StencilRelay.Tests.SaveSystemTests" runstate="Runnable" seed="2367361" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000464" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1035" name="Level12_Completion_DoesNotUnlockBeyond" fullname="StencilRelay.Tests.SaveSystemTests.Level12_Completion_DoesNotUnlockBeyond" methodname="Level12_Completion_DoesNotUnlockBeyond" classname="StencilRelay.Tests.SaveSystemTests" runstate="Runnable" seed="479675611" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.001481" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1037" name="NewerVersionFile_IsBackedUp_AndReset" fullname="StencilRelay.Tests.SaveSystemTests.NewerVersionFile_IsBackedUp_AndReset" methodname="NewerVersionFile_IsBackedUp_AndReset" classname="StencilRelay.Tests.SaveSystemTests" runstate="Runnable" seed="743251150" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.005466" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1034" name="Replay_ImprovesWhenBetter" fullname="StencilRelay.Tests.SaveSystemTests.Replay_ImprovesWhenBetter" methodname="Replay_ImprovesWhenBetter" classname="StencilRelay.Tests.SaveSystemTests" runstate="Runnable" seed="1952032612" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.002125" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1033" name="Replay_NeverDowngradesRatingOrMoves" fullname="StencilRelay.Tests.SaveSystemTests.Replay_NeverDowngradesRatingOrMoves" methodname="Replay_NeverDowngradesRatingOrMoves" classname="StencilRelay.Tests.SaveSystemTests" runstate="Runnable" seed="345735867" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.002113" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1039" name="ResetProgress_ClearsEverything" fullname="StencilRelay.Tests.SaveSystemTests.ResetProgress_ClearsEverything" methodname="ResetProgress_ClearsEverything" classname="StencilRelay.Tests.SaveSystemTests" runstate="Runnable" seed="674134928" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.003850" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1038" name="Settings_PersistAndClamp" fullname="StencilRelay.Tests.SaveSystemTests.Settings_PersistAndClamp" methodname="Settings_PersistAndClamp" classname="StencilRelay.Tests.SaveSystemTests" runstate="Runnable" seed="1726494508" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.005240" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1031" name="Tutorial_Completion_UnlocksLevel1_AndPersists" fullname="StencilRelay.Tests.SaveSystemTests.Tutorial_Completion_UnlocksLevel1_AndPersists" methodname="Tutorial_Completion_UnlocksLevel1_AndPersists" classname="StencilRelay.Tests.SaveSystemTests" runstate="Runnable" seed="309887167" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.001718" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1040" name="StencilCoreTests" fullname="StencilRelay.Tests.StencilCoreTests" classname="StencilRelay.Tests.StencilCoreTests" runstate="Runnable" testcasecount="20" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.010831" total="20" passed="20" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1042" name="CellGrid_And_KeepsOnlyCommon" fullname="StencilRelay.Tests.StencilCoreTests.CellGrid_And_KeepsOnlyCommon" methodname="CellGrid_And_KeepsOnlyCommon" classname="StencilRelay.Tests.StencilCoreTests" runstate="Runnable" seed="744231685" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000394" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1041" name="CellGrid_AndNot_ClearsOverlap" fullname="StencilRelay.Tests.StencilCoreTests.CellGrid_AndNot_ClearsOverlap" methodname="CellGrid_AndNot_ClearsOverlap" classname="StencilRelay.Tests.StencilCoreTests" runstate="Runnable" seed="1039263356" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000284" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1043" name="CellGrid_SizeMismatch_Throws" fullname="StencilRelay.Tests.StencilCoreTests.CellGrid_SizeMismatch_Throws" methodname="CellGrid_SizeMismatch_Throws" classname="StencilRelay.Tests.StencilCoreTests" runstate="Runnable" seed="325065983" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000908" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1053" name="Composite_IsOrderIndependent" fullname="StencilRelay.Tests.StencilCoreTests.Composite_IsOrderIndependent" methodname="Composite_IsOrderIndependent" classname="StencilRelay.Tests.StencilCoreTests" runstate="Runnable" seed="156422631" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000660" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1052" name="Composite_TwoPlates_IsIntersectionOfHoles" fullname="StencilRelay.Tests.StencilCoreTests.Composite_TwoPlates_IsIntersectionOfHoles" methodname="Composite_TwoPlates_IsIntersectionOfHoles" classname="StencilRelay.Tests.StencilCoreTests" runstate="Runnable" seed="255096159" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000228" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1059" name="Evaluate_DualProjector_LabelsFailingProjector" fullname="StencilRelay.Tests.StencilCoreTests.Evaluate_DualProjector_LabelsFailingProjector" methodname="Evaluate_DualProjector_LabelsFailingProjector" classname="StencilRelay.Tests.StencilCoreTests" runstate="Runnable" seed="1397844754" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.001064" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1058" name="Evaluate_Filter_RequiresLightToCarryCategory" fullname="StencilRelay.Tests.StencilCoreTests.Evaluate_Filter_RequiresLightToCarryCategory" methodname="Evaluate_Filter_RequiresLightToCarryCategory" classname="StencilRelay.Tests.StencilCoreTests" runstate="Runnable" seed="839061752" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000459" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1056" name="Evaluate_ForbiddenSensorLit_Fails" fullname="StencilRelay.Tests.StencilCoreTests.Evaluate_ForbiddenSensorLit_Fails" methodname="Evaluate_ForbiddenSensorLit_Fails" classname="StencilRelay.Tests.StencilCoreTests" runstate="Runnable" seed="1850920361" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000320" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1057" name="Evaluate_IsDeterministic_RepeatedCalls" fullname="StencilRelay.Tests.StencilCoreTests.Evaluate_IsDeterministic_RepeatedCalls" methodname="Evaluate_IsDeterministic_RepeatedCalls" classname="StencilRelay.Tests.StencilCoreTests" runstate="Runnable" seed="2004386301" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000411" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1055" name="Evaluate_RequiredTargetBlocked_FailsWithReason" fullname="StencilRelay.Tests.StencilCoreTests.Evaluate_RequiredTargetBlocked_FailsWithReason" methodname="Evaluate_RequiredTargetBlocked_FailsWithReason" classname="StencilRelay.Tests.StencilCoreTests" runstate="Runnable" seed="440972450" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000220" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1054" name="Evaluate_RequiredTargetLit_Succeeds" fullname="StencilRelay.Tests.StencilCoreTests.Evaluate_RequiredTargetLit_Succeeds" methodname="Evaluate_RequiredTargetLit_Succeeds" classname="StencilRelay.Tests.StencilCoreTests" runstate="Runnable" seed="1315840832" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000202" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1047" name="FourRotations_ReturnToStart" fullname="StencilRelay.Tests.StencilCoreTests.FourRotations_ReturnToStart" methodname="FourRotations_ReturnToStart" classname="StencilRelay.Tests.StencilCoreTests" runstate="Runnable" seed="1677700610" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000145" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1060" name="Permissions_EnumeratePlacements_CoversOffsetsRotationsFlips" fullname="StencilRelay.Tests.StencilCoreTests.Permissions_EnumeratePlacements_CoversOffsetsRotationsFlips" methodname="Permissions_EnumeratePlacements_CoversOffsetsRotationsFlips" classname="StencilRelay.Tests.StencilCoreTests" runstate="Runnable" seed="2012578341" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000385" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1051" name="Plate_PartlyOffBoard_ClipsCleanly" fullname="StencilRelay.Tests.StencilCoreTests.Plate_PartlyOffBoard_ClipsCleanly" methodname="Plate_PartlyOffBoard_ClipsCleanly" classname="StencilRelay.Tests.StencilCoreTests" runstate="Runnable" seed="1459434010" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000211" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1050" name="Plate_ResolveOpaque_IsFootprintMinusHoles_Translated" fullname="StencilRelay.Tests.StencilCoreTests.Plate_ResolveOpaque_IsFootprintMinusHoles_Translated" methodname="Plate_ResolveOpaque_IsFootprintMinusHoles_Translated" classname="StencilRelay.Tests.StencilCoreTests" runstate="Runnable" seed="1952131915" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000232" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1044" name="RotateCell_KnownMappings_ForAsymmetricFootprint" fullname="StencilRelay.Tests.StencilCoreTests.RotateCell_KnownMappings_ForAsymmetricFootprint" methodname="RotateCell_KnownMappings_ForAsymmetricFootprint" classname="StencilRelay.Tests.StencilCoreTests" runstate="Runnable" seed="1458641969" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000240" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1045" name="RotatedFootprint_SwapsAxesForQuarterTurns" fullname="StencilRelay.Tests.StencilCoreTests.RotatedFootprint_SwapsAxesForQuarterTurns" methodname="RotatedFootprint_SwapsAxesForQuarterTurns" classname="StencilRelay.Tests.StencilCoreTests" runstate="Runnable" seed="1525024398" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000172" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1048" name="Shape_Flip_MirrorsFrontWhenNoDistinctBack" fullname="StencilRelay.Tests.StencilCoreTests.Shape_Flip_MirrorsFrontWhenNoDistinctBack" methodname="Shape_Flip_MirrorsFrontWhenNoDistinctBack" classname="StencilRelay.Tests.StencilCoreTests" runstate="Runnable" seed="2019438179" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.001434" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1049" name="Shape_Flip_UsesDistinctBackVerbatim" fullname="StencilRelay.Tests.StencilCoreTests.Shape_Flip_UsesDistinctBackVerbatim" methodname="Shape_Flip_UsesDistinctBackVerbatim" classname="StencilRelay.Tests.StencilCoreTests" runstate="Runnable" seed="472480995" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000181" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1046" name="UnrotateCell_InvertsRotateCell_ForAllRotations" fullname="StencilRelay.Tests.StencilCoreTests.UnrotateCell_InvertsRotateCell_ForAllRotations" methodname="UnrotateCell_InvertsRotateCell_ForAllRotations" classname="StencilRelay.Tests.StencilCoreTests" runstate="Runnable" seed="128062062" result="Passed" start-time="2026-09-07 02:21:29Z" end-time="2026-09-07 02:21:29Z" duration="0.000575" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/mhn13/AppData/LocalLow/Rehman Mughal/Stencil Relay\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

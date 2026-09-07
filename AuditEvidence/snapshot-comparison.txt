@@ -1,0 +1,1 @@
+PASS: saved runtime sources, scenes, content and packages match the build snapshot. Standalone managed stripping is applied by ReleaseVerification at build time.

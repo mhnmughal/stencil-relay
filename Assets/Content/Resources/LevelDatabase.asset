@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 761036ea43157ac4cbdf0cea197ab034, type: 3}
+  m_Name: LevelDatabase
+  m_EditorClassIdentifier: StencilRelay.Runtime::StencilRelay.Levels.LevelDatabase
+  levels:
+  - {fileID: 11400000, guid: da4f8924a52378245b704c56aacf25da, type: 2}
+  - {fileID: 11400000, guid: 1dac5ea0578f3b74eb640960ec4a2e2a, type: 2}
+  - {fileID: 11400000, guid: ea345a836fc396f4d9a33282a31ccbb4, type: 2}
+  - {fileID: 11400000, guid: 4aad661498f910c41b9c931ff6cb5863, type: 2}
+  - {fileID: 11400000, guid: 7dfe84114d7be0a408bc468af931a245, type: 2}
+  - {fileID: 11400000, guid: 5768a7286ca59e443ab8794bfc97b7e5, type: 2}
+  - {fileID: 11400000, guid: 1dbedc5c458ac334a9931063752611a9, type: 2}
+  - {fileID: 11400000, guid: d6cdd1a46c048cd48ae754e5d3c55625, type: 2}
+  - {fileID: 11400000, guid: aa1a617fd582d954f845282e161244eb, type: 2}
+  - {fileID: 11400000, guid: c127b7053c7adec4f8bd1aed41af4610, type: 2}
+  - {fileID: 11400000, guid: af3c3a95d28fb4246be764cab99c6638, type: 2}
+  - {fileID: 11400000, guid: 7149800b87d2dc343a44dd735c35b3b7, type: 2}
+  - {fileID: 11400000, guid: 9b58c4a108b878245a046924bf7422b4, type: 2}

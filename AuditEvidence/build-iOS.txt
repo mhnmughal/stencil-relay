@@ -1,0 +1,6 @@
+Succeeded
+Errors: 0
+Warnings: 0
+Bytes: 917209988
+Duration: 00:01:10.0053100
+Output: I:/UnityProject/Stencil Relay/AuditBuildProject/Builds/Offline/iOS

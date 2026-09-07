@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-07T07:32:03.1537298+05:00",
+  "passed": true,
+  "scope": "Manifest, resolved lockfile, runtime C#, service startup, forced Internet permission, existing output Managed DLLs",
+  "violations": [],
+  "retainedEngineFacades": [
+    "Builds/Offline/Win/StencilRelay_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+    "Builds/Offline/Win/StencilRelay_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+    "Builds/Offline/Win/StencilRelay_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
+  ],
+  "facadeNote": "Unity may retain built-in type-forwarding wrappers without their packages. Only UnityEngine.dll and the wrappers may reference these; project/runtime library references fail this audit. Do not manually delete engine DLLs."
+}

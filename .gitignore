@@ -1,0 +1,55 @@
+# ---- Unity generated ----
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+.vsconfig
+
+# ---- Full project copy made for the offline build audit (regenerable, ~3.6 GB) ----
+/AuditBuildProject/
+
+# ---- Large binary evidence left by the audit (keep the text/xml/json/log evidence) ----
+/AuditEvidence/WindowsSymbols/
+
+# ---- Visual Studio / Rider / IDE ----
+.vs/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ---- OS / editor cruft ----
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# ---- Unity crash / build reports ----
+sysinfo.txt
+crashlytics-build.properties
+/[Aa]ssets/[Aa]ssetStoreTools*
+/[Aa]ssets/[Pp]lugins/[Ee]ditor/JetBrains*
+
+# ---- Unity meta files for ignored folders (Unity emits these but they track nothing) ----
+/[Bb]uilds.meta
+/[Ll]ibrary.meta
+/[Tt]emp.meta
+/[Ll]ogs.meta
+/[Uu]ser[Ss]ettings.meta
+/AuditBuildProject.meta

@@ -1,0 +1,30 @@
+# Normalise line endings; keep LF in the repo (Unity is fine with LF on Windows)
+* text=auto eol=lf
+
+*.cs        text diff=csharp
+*.shader    text
+*.md        text
+
+# Unity YAML — text, never EOL-munged, treat as binary for merges
+*.unity     text eol=lf -merge
+*.prefab    text eol=lf -merge
+*.asset     text eol=lf -merge
+*.mat       text eol=lf -merge
+*.meta      text eol=lf -merge
+*.controller text eol=lf -merge
+*.anim      text eol=lf -merge
+*.scenetemplate text eol=lf -merge
+
+# Binaries
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.ttf binary
+*.otf binary
+*.fbx binary
+*.unitypackage binary
+*.dll binary

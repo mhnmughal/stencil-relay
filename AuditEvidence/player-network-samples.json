@@ -1,0 +1,32 @@
+[
+  {
+    "Sample": 0,
+    "Exited": false,
+    "TCP": 0,
+    "UDP": 0
+  },
+  {
+    "Sample": 1,
+    "Exited": false,
+    "TCP": 0,
+    "UDP": 0
+  },
+  {
+    "Sample": 2,
+    "Exited": false,
+    "TCP": 0,
+    "UDP": 0
+  },
+  {
+    "Sample": 3,
+    "Exited": false,
+    "TCP": 0,
+    "UDP": 0
+  },
+  {
+    "Sample": 4,
+    "Exited": false,
+    "TCP": 0,
+    "UDP": 0
+  }
+]

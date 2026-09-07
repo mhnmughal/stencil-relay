@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d31705d3ef56fd4da5b48084950c60c, type: 3}
+  m_Name: Level_05_ShadowBlock
+  m_EditorClassIdentifier: StencilRelay.Runtime::StencilRelay.Levels.StencilLevelDefinition
+  levelId: 5
+  displayTitle: Shadow Block
+  set: 2
+  boardSize: {x: 6, y: 6}
+  projectors:
+  - id: P
+    fullBoardAperture: 1
+    apertureCells: []
+  plates:
+  - id: A
+    shape: {fileID: 11400000, guid: d6ba2c79a8ff05c4eb6528aecf0a669d, type: 2}
+    initialOffset: {x: 1, y: 0}
+    initialRotation: 0
+    initialFlipped: 0
+    allowedOffsets:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 2, y: 0}
+    allowedRotations: 
+    flipAllowed: 0
+    optimalOffset: {x: 0, y: 0}
+    optimalRotation: 0
+    optimalFlipped: 0
+    depthPlane: 0
+  - id: B
+    shape: {fileID: 11400000, guid: 9cc32af33ef97764fb5d1eaf091432c9, type: 2}
+    initialOffset: {x: 0, y: 0}
+    initialRotation: 0
+    initialFlipped: 0
+    allowedOffsets:
+    - {x: 0, y: 0}
+    - {x: 2, y: 3}
+    - {x: 0, y: 3}
+    - {x: 2, y: 0}
+    allowedRotations: 
+    flipAllowed: 0
+    optimalOffset: {x: 2, y: 3}
+    optimalRotation: 0
+    optimalFlipped: 0
+    depthPlane: 0
+  sensors:
+  - label: T
+    kind: 0
+    projectorId: P
+    cells:
+    - {x: 3, y: 1}
+    requiredFilter: 0
+  - label: X
+    kind: 1
+    projectorId: P
+    cells:
+    - {x: 3, y: 4}
+    requiredFilter: 0
+  movePar: 3
+  isTutorial: 0
+  tutorialSteps: []
+  parallaxPerDepth: 0

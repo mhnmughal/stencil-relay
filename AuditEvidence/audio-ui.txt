@@ -1,0 +1,4 @@
+value=0, label=0%, handle=0, fill=0, saved=0, dB=-80
+value=0.25, label=25%, handle=0.25, fill=0.25, saved=0.25, dB=-12.0412
+value=0.5, label=50%, handle=0.5, fill=0.5, saved=0.5, dB=-6.0206
+value=1, label=100%, handle=1, fill=1, saved=1, dB=0

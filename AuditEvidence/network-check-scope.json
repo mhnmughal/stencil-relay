@@ -1,0 +1,8 @@
+{
+  "NetworkStateReadable": true,
+  "FirewallEnforced": false,
+  "FirewallFailure": "Windows Access is denied",
+  "Samples": 5,
+  "ObservedPlayerTCP": 0,
+  "ObservedPlayerUDP": 0
+}

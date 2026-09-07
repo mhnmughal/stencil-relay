@@ -1,0 +1,10 @@
+{
+    "version": 1,
+    "tutorialDone": false,
+    "highestUnlockedId": 0,
+    "finaleShown": false,
+    "records": [],
+    "musicVolume": 0.800000011920929,
+    "sfxVolume": 0.8999999761581421,
+    "haptics": true
+}
